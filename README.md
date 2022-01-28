@@ -1,8 +1,6 @@
-# CS0-JesseMoyer
-CS0 Example
+# CS0 - Beginning Programming using Python & Lab
+- 2022
+- Jesse Moyer
+## Assignments
 
-# second section
-This is another section
-
-# third section
-Yet another section for this file..
+### Labs
