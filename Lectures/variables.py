@@ -7,8 +7,8 @@ Finding area and perimeter of a rectangle with user inputs.
 '''
 rectLength=input('What is the length of the rectangle? ->')
 rectWidth=input('What is the width of the rectangle? ->' )
-rectLength = int(rectLength)
-rectWidth=int(rectWidth)
+rectLength = float(rectLength)
+rectWidth=float(rectWidth)
 area=(rectLength*rectWidth)
 print('The area of the rectangle is:', area)
 perimeter=(2*(rectWidth+rectLength))
