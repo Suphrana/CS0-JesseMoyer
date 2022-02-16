@@ -14,5 +14,7 @@ b=float(input('Side b ->'))
 c=float(input("Side c ->"))
 s=(((a+b+c)/2))
 
+Perimeter=(a+b+c)
 Area=sqrt(s*(s-a)*(s-b)*(s-c))
-print("This is the area of the triangle:", Area)
+print("Area:", Area)
+print("Perimeter:", Perimeter)
