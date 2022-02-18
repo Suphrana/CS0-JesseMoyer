@@ -8,4 +8,10 @@
 - ran and tested the program many times
 - I deserve 100% grade
 
+## 2 - Triangle
+- program finds area and perimeter of a triangle given three sides
+- all the requirements are completed
+- program tested at least 49 times
+- grade: 110/100
+
 ### Labs
