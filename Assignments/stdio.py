@@ -1,5 +1,5 @@
 '''
-Name: Jesse Moyer
+Name: Jesse J Moyer
 Date: 2/11/2022
 
 Ascii hangman assignment - prints various stages of the hangman game
