@@ -6,7 +6,7 @@ Finding the area and perimeter of a triangle using 3 sides
 
 ''' 
 
-#Assigning variables to user inputs
+#Assigning variables of the 3 sides using user inputs
 a=float(input("Side a ->"))
 b=float(input('Side b ->'))
 c=float(input("Side c ->"))
@@ -18,7 +18,8 @@ def demensions():
     area = (s*(s-a)*(s-b)*(s-c))**1/2
     print(f"These sides form a triangle with Area: {area}, Perimeter: {perimeter}")
 
-#Determines whether the sides form a triangle or not
+#E.C.
+#Determines whether the sides form a triangle or not and outputs the answer using conditionals
 if (a+b < c) or (a+c < b) or (b+c < a):
     print("These sides do not form a triangle.")
 else:
