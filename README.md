@@ -14,4 +14,10 @@
 - program tested at least 49 times
 - grade: 110/100
 
+## 3 - Functions
+- program tests and completes multiple arithemetic functions given two numbers
+- meets all requirements
+- ran and tested program infinite times
+- grade: 110/100
+
 ### Labs
