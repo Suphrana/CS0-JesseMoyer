@@ -27,19 +27,41 @@ def average(a,b,c,d,e):
     return (sum(a,b,c,d,e)/5)
 
 def maximum(a,b,c,d,e):
-    pass
+    if a > (b and c and d and e):
+        return a
+    elif b > (a and c and d and e):
+        return b
+    elif c > (a and b and d and e):
+        return c
+    elif d > (a and b and c and e):
+        return d
+    elif e > (a and b and c and d):
+        return e
+    
 
 def minimum(a,b,c,d,e):
-    pass
+    if a < (b and c and d and e):
+        return a
+    elif b < (a and c and d and e):
+        return b
+    elif c < (a and b and d and e):
+        return c
+    elif d < (a and b and c and e):
+        return d
+    elif e < (a and b and c and d):
+        return e
 
 def test():
     assert sum(1,2,3,4,5) == 15
     assert sum(2,4,6,8,10) == 30
-    assert
-    assert
-    assert
-    assert
-    assert
-    assert
+    assert product(2,2,2,2,2) == 32
+    assert product(1,1,1,1,1) == 1
+    assert average(1,2,3,4,5) == 3
+    assert average(2,4,6,8,10) == 6
+    assert maximum(4,5,7,1,9) == 9
+    assert maximum(2,9,5,6,7) == 9
+    assert minimum(1,2,3,4,5) == 1
+    assert minimum(1,2,4,6,8) == 1
 
 main()
+
