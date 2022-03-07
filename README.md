@@ -20,4 +20,10 @@
 - ran and tested program infinite times
 - grade: 110/100
 
+## 4 - Conditionals
+- program defines multiple functions to perform mathematical operations on 5 numbers
+- meets all requirements
+- tested program more times than the us is dollars in debt
+- grade: 110/100
+
 ### Labs

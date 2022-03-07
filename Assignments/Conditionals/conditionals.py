@@ -5,7 +5,7 @@ Date: 03/02/22
 Write a Python program that computes certain values such as sum, product, max, min
 and average of 5 given numbers.
 '''
-
+#Main function
 def main():
     print("Please enter 5 numbers:")
     a,b,c,d,e = (float(input(">")), float(input(">")), float(input(">")), float(input(">")), float(input(">")))
@@ -15,8 +15,17 @@ def main():
     print("Average:", average(a,b,c,d,e))
     print("Maximum:", maximum(a,b,c,d,e))
     print("Minimum:", minimum(a,b,c,d,e))
+
+    #Conditional Loop
+    userIn = input("Continue? Y/N -->")
+    if userIn != "N":
+        main()
+    else:
+        exit 
+        
     return a,b,c,d,e 
 
+#Functions Defined
 def sum(a,b,c,d,e):
     return a+b+c+d+e
     
@@ -26,6 +35,7 @@ def product(a,b,c,d,e):
 def average(a,b,c,d,e):
     return (sum(a,b,c,d,e)/5)
 
+#Max/min created using conditionals
 def maximum(a,b,c,d,e):
     if a > (b and c and d and e):
         return a
@@ -51,6 +61,7 @@ def minimum(a,b,c,d,e):
     elif e < (a and b and c and d):
         return e
 
+#Tests functions
 def test():
     assert sum(1,2,3,4,5) == 15
     assert sum(2,4,6,8,10) == 30
@@ -63,5 +74,9 @@ def test():
     assert minimum(1,2,3,4,5) == 1
     assert minimum(1,2,4,6,8) == 1
 
+#Program printed
 main()
+
+
+
 
