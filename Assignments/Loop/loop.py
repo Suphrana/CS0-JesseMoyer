@@ -13,6 +13,7 @@ def wrapmain():
     name = (input("Welcome to Guess the Number! \nWhat is your name? ->"))
     print("To quit the game type '0'")
 
+
     wins = 0
     losses = 0
     #Create main function
