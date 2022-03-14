@@ -26,4 +26,11 @@
 - tested program more times than the us is dollars in debt
 - grade: 110/100
 
+## 5 - Loop
+- met all requirements (90 points)
+- updated readme (10 points)
+- tested the program many times
+- bonus points (+10)
+
+
 ### Labs
