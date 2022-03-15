@@ -11,12 +11,13 @@ def main():
 
     #FBI blimp counter
     for i in range(5):
-        blimp = input()
+        blimp = input("Gay")
         if "FBI" in blimp:
             CIA.append(str(i+1))
+            
+    if CIA:
+        print(" ".join(CIA))
+    else:
+        print("HE GOT AWAY!")
 
-        if CIA:
-            print(" ".join(CIA))
-        else:
-            print("HE GOT AWAY!")
 main()
