@@ -5,11 +5,18 @@ Date: 03/14/2022
 Solve the avian kattis problem using python 3
 '''
 def main():
-    b1="47-FBI"
-    b2="BOND-007"
-    b3="RF-FBI18"
-    b4="MARICA-13"
-    b5="13A-FBILL"
-   
-    
+    #Storage for blimp reg numbers
+    CIA = []
+
+
+    #FBI blimp counter
+    for i in range(5):
+        blimp = input()
+        if "FBI" in blimp:
+            CIA.append(str(i+1))
+
+        if CIA:
+            print(" ".join(CIA))
+        else:
+            print("HE GOT AWAY!")
 main()
