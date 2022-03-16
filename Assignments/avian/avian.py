@@ -4,6 +4,7 @@ Date: 03/14/2022
 
 Solve the avian kattis problem using python 3
 '''
+
 #Main function
 def main():
     #Storage for blimp reg numbers
@@ -20,6 +21,10 @@ def main():
     #No contents = he escaped   
     else:
         print("HE GOT AWAY!")
+    print(" ".join(CIA))
+    return CIA
 
 main()
+
+
 
