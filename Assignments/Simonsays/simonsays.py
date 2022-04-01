@@ -5,28 +5,26 @@ Date: 03/30/2022
 Create a computer program that can play simon says perfectly
 '''
 #Create Function
-def simonsays():
+def input_turns():
+    turn = input("Number of simon says commands ->")
+    return turn
 
-#Lines of dialogue for game
-    turns = int(input())
+def simonsays(turns, simonsays):
 
 #Repeat until all lines are inputted
     for i in range(turns):
-        simonsays = input()
+        strings = []
 
 #Print desired task if simon says to do so AKA print all characters after 10 spaces
         if "Simon says " in simonsays:
             print(simonsays[10:])
     return simonsays
 
-
-def test():
-    assert simonsays == ""
-    print("All test cases passed!")
+def input_string():
+    inputted_string = input("Simon says commands ->")
+    return inputted_string
 
 def main():
-    simonsays()
-    test()
-    
-main()
+    turns = input_turns()
+    strings = input_string()
 
