@@ -4,26 +4,28 @@ Date: 03/14/2022
 
 Solve the avian kattis problem using python 3
 '''
+#give blimp values
 def input_blimp():
         blimp = input()
         return blimp
 
-def blimpfinder(blimps, i):
-        CIA = []
+#function to find and mark any blimps
+def blimpfinder(blimps, i, CIA):
+        #find fbi in the blimps
         if "FBI" in blimps:
                         CIA.append(str(i+1))
-        if CIA:
-                " ".join(CIA)
-      
-        else:
-                "HE GOT AWAY!"
 
-        return CIA
-
+#main function to process all functions in their order
 def main():
+        CIA = []
         for i in range (5):
                 blimps = input_blimp()
-                blimpfinder(blimps, i)
+                blimpfinder(blimps, i, CIA)
+        
+        if CIA:
+                print (*CIA, sep=" ")
+        
+        else: print("HE GOT AWAY!")
         
 main()
 
