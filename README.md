@@ -38,4 +38,16 @@
 - tested the program many times and ran it through kattis
 - grade 100/100
 
+## 7 - Simon Says
+- Program is able to successfully beat simon says
+- meets all requirements
+- tested the program many times and ran it through kattis
+- grade 100/100
+
+## 8 - Falling Apart
+- Program is able to determine which pieces Alice and Bob recieve
+- meets all requirements
+- tested the program many times and ran it through kattis
+- grade 100/100
+
 ### Labs
